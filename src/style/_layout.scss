@@ -2,27 +2,45 @@ body {
     background-color: #dddad7;
 }
 
+.hero {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 6px 6px 20px rgb(0 0 0 / 50%);
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
 .sidebar {
-    max-width: 30%;
-    padding: 3% 2%;
-    background-color: #434365e0;
+    max-width: 360px;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #4e4531de;
     color: #fff;
 }
 
 .section_content {
-    max-width: 70%;
-    padding: 3% 4%;
+    max-width: 840px;
+    width: 100%;
+    padding: 40px 20px;
     color: #0a0a0a;
 }
 
 .title {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     padding-bottom: 5px;
     margin-bottom: 10px;
     font-size: 30px;
     line-height: 32px;
     font-weight: bold;
     font-style: normal;
+    text-transform: capitalize;
     letter-spacing: 0.05em;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
 }
 

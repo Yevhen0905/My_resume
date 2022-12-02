@@ -1,12 +1,13 @@
-.hero {
+.contact_img {
+  max-width: 270px;
+  height: 270px;
   width: 100%;
-  max-width: 1200px;
-  margin: 50px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #fff;
+  background-image: url(../img/IMG_20221018_122926_488.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 50%;
+  margin: 0 auto 20px;
 }
 
 .contact_item {
@@ -54,7 +55,7 @@
 .title_name {
   font-size: 45px;
   line-height: 53px;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.05em;
   margin-bottom: 15px;
@@ -63,9 +64,10 @@
 .title_specialty {
   font-size: 23px;
   line-height: 25px;
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 40px;
   letter-spacing: 0.05em;
+  text-transform: capitalize;
 }
 
 .about_text {
@@ -97,7 +99,7 @@
   margin-bottom: 9px;
   font-size: 16px;
   line-height: 18px;
-  color: #ff4000;
+  color: #e34713;
 }
 .list_title .list_position {
   color: #0a0a0a;
@@ -125,5 +127,7 @@
 .education_text_specialty {
   font-size: 14px;
   line-height: 17px;
-  color: #5b5757;
+  font-weight: 600;
+  font-style: italic;
+  color: #0a0a0a;
 }

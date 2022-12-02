@@ -38,6 +38,14 @@
   src: local(""), url("../fonts/montserrat/montserrat-v25-latin-italic.woff2") format("woff2"), url("../fonts/montserrat/montserrat-v25-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* montserrat-900 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("../fonts/montserrat/montserrat-v25-latin-900.woff2") format("woff2"), url("../fonts/montserrat/montserrat-v25-latin-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 body, html, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   font-size: 100%;
@@ -47,7 +55,7 @@ body, html, h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-p, button {
+p, button, img {
   margin: 0;
   padding: 0;
 }

@@ -75,6 +75,7 @@ img {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   font-family: inherit;
@@ -277,10 +278,19 @@ body {
   color: #0a0a0a;
 }
 
+.contact_link:hover {
+  color: #eba58e;
+  transform: scale(1.02);
+}
+
 @media screen and (max-width: 768px) {
   body, html {
     overflow-x: auto;
     width: 100%;
+  }
+
+  .hero {
+    margin: 0 auto;
   }
 
   .sidebar {

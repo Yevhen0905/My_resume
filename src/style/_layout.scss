@@ -16,7 +16,7 @@ body {
     max-width: 360px;
     width: 100%;
     padding: 30px 20px;
-    background-color: #4e4531de;
+    background-color: #746e60de;
     color: #fff;
 }
 
@@ -42,5 +42,9 @@ body {
 .icon {
     font-size: 20px;
     margin-right: 10px;
+}
+
+.sidebar_name, .sidebar_specialty {
+    display: none;
 }
 

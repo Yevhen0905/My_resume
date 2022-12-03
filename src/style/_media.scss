@@ -1,4 +1,9 @@
 @media screen and (max-width:768px) {
+    body, html {
+        overflow-x: auto;
+        width: 100%;
+    }
+
     .sidebar {
      padding: 15px 5px;  
     }
@@ -23,8 +28,8 @@
     }
 
     .contact_img {
-        max-width: 200px;
-        height: 200px;
+        max-width: 270px;
+        height: 270px;
     }
 
     .sidebar {
@@ -60,4 +65,24 @@
         font-size: 11px;
         line-height: 14px;
     }
+  }
+
+  @media screen and (max-width:612px) {
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    .sidebar {
+        max-width: 612px;
+        width: 100%;
+    }
+
+    .sidebar_name, .sidebar_specialty {
+        display: block;
+    }
+
+    .content_name, .content_specialty {
+        display: none
+    }
+    
   }

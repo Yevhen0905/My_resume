@@ -75,7 +75,6 @@ img {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: inherit;
   font-family: inherit;
@@ -83,6 +82,15 @@ a {
 
 button {
   font-family: inherit;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  position: relative;
 }
 
 body {
@@ -103,7 +111,7 @@ body {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #4e4531de;
+  background-color: #746e60de;
   color: #fff;
 }
 
@@ -129,6 +137,10 @@ body {
 .icon {
   font-size: 20px;
   margin-right: 10px;
+}
+
+.sidebar_name, .sidebar_specialty {
+  display: none;
 }
 
 .contact_img {
@@ -266,6 +278,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body, html {
+    overflow-x: auto;
+    width: 100%;
+  }
+
   .sidebar {
     padding: 15px 5px;
   }
@@ -290,8 +307,8 @@ body {
   }
 
   .contact_img {
-    max-width: 200px;
-    height: 200px;
+    max-width: 270px;
+    height: 270px;
   }
 
   .sidebar {
@@ -326,5 +343,23 @@ body {
   .education_text_specialty {
     font-size: 11px;
     line-height: 14px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .sidebar {
+    max-width: 612px;
+    width: 100%;
+  }
+
+  .sidebar_name, .sidebar_specialty {
+    display: block;
+  }
+
+  .content_name, .content_specialty {
+    display: none;
   }
 }

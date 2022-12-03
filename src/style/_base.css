@@ -75,7 +75,6 @@ img {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: inherit;
   font-family: inherit;
@@ -83,4 +82,13 @@ a {
 
 button {
   font-family: inherit;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  position: relative;
 }

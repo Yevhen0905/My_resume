@@ -94,10 +94,6 @@ body {
   position: relative;
 }
 
-body {
-  background-color: #dddad7;
-}
-
 .hero {
   width: 100%;
   max-width: 1200px;
@@ -148,12 +144,14 @@ body {
   max-width: 270px;
   height: 270px;
   width: 100%;
-  background-image: url(../img/IMG_20221018_122926_488.jpg);
+  background-image: url(../img/my_foto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   border-radius: 50%;
+  border: 3px solid #fff;
   margin: 0 auto 20px;
+  box-shadow: 10px 10px 50px -10px rgba(0, 0, 0, 0.4);
 }
 
 .contact_item {

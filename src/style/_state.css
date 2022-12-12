@@ -2,3 +2,8 @@
   color: #eba58e;
   transform: scale(1.02);
 }
+
+.project_list_item:hover {
+  color: #eba58e;
+  transform: scale(1.02);
+}

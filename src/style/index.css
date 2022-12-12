@@ -75,7 +75,6 @@ img {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: inherit;
   font-family: inherit;
@@ -94,10 +93,15 @@ body {
   position: relative;
 }
 
+body {
+  background-color: #dddad7;
+}
+
 .hero {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 50px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
   background-color: #fff;
@@ -239,7 +243,7 @@ body {
 }
 
 .list_title {
-  margin-bottom: 9px;
+  margin: 10px 0;
   font-size: 16px;
   line-height: 18px;
   color: #e34713;
@@ -276,6 +280,11 @@ body {
 }
 
 .contact_link:hover {
+  color: #eba58e;
+  transform: scale(1.02);
+}
+
+.project_list_item:hover {
   color: #eba58e;
   transform: scale(1.02);
 }
